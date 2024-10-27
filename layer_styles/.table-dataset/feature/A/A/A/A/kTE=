@@ -1,4 +1,4 @@
-íŸ(f3bdcaf38cb69bcd434f61cdbb6e793031c74b1dú††Øuap_ZelDraha_op§geomØuap_ZelDraha_op⁄ìp<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+íŸ(f3bdcaf38cb69bcd434f61cdbb6e793031c74b1dú††∞uap_Silnice23_op§geom∞uap_Silnice23_op⁄íÒ<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
 <qgis readOnly="0" styleCategories="AllStyleCategories" version="3.34.11-Prizren" hasScaleBasedVisibilityFlag="0" maxScale="0" simplifyDrawingTol="1" simplifyAlgorithm="0" simplifyLocal="1" minScale="100000000" labelsEnabled="1" simplifyDrawingHints="1" simplifyMaxScale="1" symbologyReferenceScale="-1">
  <flags>
   <Identifiable>1</Identifiable>
@@ -154,7 +154,7 @@
       <Option value="collection" type="QString" name="type"/>
      </Option>
     </data_defined_properties>
-    <layer id="{93a608ca-0a1a-4423-80bf-e7f2eece6851}" pass="0" class="GeometryGenerator" enabled="1" locked="0">
+    <layer id="{210435b0-51df-437f-9397-e27ef1965014}" pass="0" class="GeometryGenerator" enabled="1" locked="0">
      <Option type="Map">
       <Option value="Fill" type="QString" name="SymbolType"/>
       <Option value="buffer(collect($geometry), 0)" type="QString" name="geometryModifier"/>
@@ -175,7 +175,7 @@
         <Option value="collection" type="QString" name="type"/>
        </Option>
       </data_defined_properties>
-      <layer id="{31b5b217-f534-4683-a246-4a0f1822b962}" pass="0" class="SimpleLine" enabled="1" locked="0">
+      <layer id="{3c692da1-2bc8-4a1a-b5e0-97f0cc23399f}" pass="0" class="SimpleLine" enabled="1" locked="0">
        <Option type="Map">
         <Option value="0" type="QString" name="align_dash_pattern"/>
         <Option value="square" type="QString" name="capstyle"/>
@@ -187,8 +187,8 @@
         <Option value="MM" type="QString" name="dash_pattern_offset_unit"/>
         <Option value="0" type="QString" name="draw_inside_polygon"/>
         <Option value="bevel" type="QString" name="joinstyle"/>
-        <Option value="147,62,184,255" type="QString" name="line_color"/>
-        <Option value="dot" type="QString" name="line_style"/>
+        <Option value="35,35,35,255" type="QString" name="line_color"/>
+        <Option value="solid" type="QString" name="line_style"/>
         <Option value="0.6" type="QString" name="line_width"/>
         <Option value="MM" type="QString" name="line_width_unit"/>
         <Option value="0" type="QString" name="offset"/>
@@ -382,9 +382,6 @@
  </labeling>
  <customproperties>
   <Option type="Map">
-   <Option type="List" name="dualview/previewExpressions">
-    <Option value="&quot;Ident&quot;" type="QString"/>
-   </Option>
    <Option value="0" type="int" name="embeddedWidgets/count"/>
    <Option name="variableNames"/>
    <Option name="variableValues"/>
@@ -658,12 +655,12 @@ def my_form_open(dialog, layer, feature):
  <mapTip enabled="1"></mapTip>
  <layerGeometryType>2</layerGeometryType>
 </qgis>
-⁄‚<?xml version="1.0" encoding="UTF-8"?>
+⁄Ë<?xml version="1.0" encoding="UTF-8"?>
 <StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:se="http://www.opengis.net/se" xmlns:ogc="http://www.opengis.net/ogc" version="1.1.0" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
  <NamedLayer>
-  <se:Name>05 OP ≈æelezniƒçn√≠ dr√°hy</se:Name>
+  <se:Name>05 OP silnice 2. a 3. t≈ô√≠dy</se:Name>
   <UserStyle>
-   <se:Name>05 OP ≈æelezniƒçn√≠ dr√°hy</se:Name>
+   <se:Name>05 OP silnice 2. a 3. t≈ô√≠dy</se:Name>
    <se:FeatureTypeStyle>
     <se:Rule>
      <se:Name>Single symbol</se:Name>
@@ -696,4 +693,4 @@ def my_form_open(dialog, layer, feature):
   </UserStyle>
  </NamedLayer>
 </StyledLayerDescriptor>
-√∏Sun Oct 27 15:07:06 2024†¿∑2024-10-11T18:38:05.000
+√∏Sun Oct 27 15:06:43 2024†¿¿

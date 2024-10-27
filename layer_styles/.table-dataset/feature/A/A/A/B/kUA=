@@ -1,4 +1,4 @@
-’Ù(f3bdcaf38cb69bcd434f61cdbb6e793031c74b1dœ  ²x_KatastralniUzemi¤geom²x_KatastralniUzemiÚvó<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+’Ù(f3bdcaf38cb69bcd434f61cdbb6e793031c74b1dœ  ªuap_Q020_p¤geomªuap_Q020_pÚ]ì<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
 <qgis readOnly="0" styleCategories="AllStyleCategories" version="3.34.11-Prizren" hasScaleBasedVisibilityFlag="0" maxScale="0" simplifyDrawingTol="1" simplifyAlgorithm="0" simplifyLocal="1" minScale="100000000" labelsEnabled="0" simplifyDrawingHints="1" simplifyMaxScale="1" symbologyReferenceScale="-1">
  <flags>
   <Identifiable>1</Identifiable>
@@ -6,13 +6,13 @@
   <Searchable>1</Searchable>
   <Private>0</Private>
  </flags>
- <temporal endField="" durationUnit="min" mode="0" endExpression="" limitMode="0" accumulate="0" startExpression="" startField="" enabled="0" durationField="fid" fixedDuration="0">
+ <temporal endField="" durationUnit="min" mode="0" endExpression="" limitMode="0" accumulate="0" startExpression="" startField="Vydal_kdy" enabled="0" durationField="fid" fixedDuration="0">
   <fixedRange>
    <start></start>
    <end></end>
   </fixedRange>
  </temporal>
- <elevation binding="Centroid" type="IndividualFeatures" showMarkerSymbolInSurfacePlots="0" extrusionEnabled="0" respectLayerSymbol="1" zoffset="0" extrusion="0" symbology="Line" zscale="1" clamping="Terrain">
+ <elevation binding="Centroid" type="IndividualFeatures" showMarkerSymbolInSurfacePlots="0" extrusionEnabled="0" respectLayerSymbol="1" zoffset="0" extrusion="0" symbology="Line" zscale="1" clamping="Relative">
   <data-defined-properties>
    <Option type="Map">
     <Option value="" type="QString" name="name"/>
@@ -29,7 +29,7 @@
       <Option value="collection" type="QString" name="type"/>
      </Option>
     </data_defined_properties>
-    <layer id="{6378418d-dd2c-4bc9-9a6a-615945ef1ec6}" pass="0" class="SimpleLine" enabled="1" locked="0">
+    <layer id="{f31a459a-d811-4161-8a25-300e5d7b943b}" pass="0" class="SimpleLine" enabled="1" locked="0">
      <Option type="Map">
       <Option value="0" type="QString" name="align_dash_pattern"/>
       <Option value="square" type="QString" name="capstyle"/>
@@ -41,7 +41,7 @@
       <Option value="MM" type="QString" name="dash_pattern_offset_unit"/>
       <Option value="0" type="QString" name="draw_inside_polygon"/>
       <Option value="bevel" type="QString" name="joinstyle"/>
-      <Option value="141,90,153,255" type="QString" name="line_color"/>
+      <Option value="152,125,183,255" type="QString" name="line_color"/>
       <Option value="solid" type="QString" name="line_style"/>
       <Option value="0.6" type="QString" name="line_width"/>
       <Option value="MM" type="QString" name="line_width_unit"/>
@@ -78,15 +78,15 @@
       <Option value="collection" type="QString" name="type"/>
      </Option>
     </data_defined_properties>
-    <layer id="{d69be400-b988-49cf-8283-1c43947b07bc}" pass="0" class="SimpleFill" enabled="1" locked="0">
+    <layer id="{5d1d9ce9-39bd-4e11-a352-8b325f7ce8be}" pass="0" class="SimpleFill" enabled="1" locked="0">
      <Option type="Map">
       <Option value="3x:0,0,0,0,0,0" type="QString" name="border_width_map_unit_scale"/>
-      <Option value="141,90,153,255" type="QString" name="color"/>
+      <Option value="152,125,183,255" type="QString" name="color"/>
       <Option value="bevel" type="QString" name="joinstyle"/>
       <Option value="0,0" type="QString" name="offset"/>
       <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
       <Option value="MM" type="QString" name="offset_unit"/>
-      <Option value="101,64,109,255" type="QString" name="outline_color"/>
+      <Option value="109,89,131,255" type="QString" name="outline_color"/>
       <Option value="solid" type="QString" name="outline_style"/>
       <Option value="0.2" type="QString" name="outline_width"/>
       <Option value="MM" type="QString" name="outline_width_unit"/>
@@ -111,18 +111,18 @@
       <Option value="collection" type="QString" name="type"/>
      </Option>
     </data_defined_properties>
-    <layer id="{b986e755-bb1a-4c8c-8ca8-8fd4ea2a8119}" pass="0" class="SimpleMarker" enabled="1" locked="0">
+    <layer id="{2608d4c1-be7b-4668-b50e-8decd765be0e}" pass="0" class="SimpleMarker" enabled="1" locked="0">
      <Option type="Map">
       <Option value="0" type="QString" name="angle"/>
       <Option value="square" type="QString" name="cap_style"/>
-      <Option value="141,90,153,255" type="QString" name="color"/>
+      <Option value="152,125,183,255" type="QString" name="color"/>
       <Option value="1" type="QString" name="horizontal_anchor_point"/>
       <Option value="bevel" type="QString" name="joinstyle"/>
       <Option value="diamond" type="QString" name="name"/>
       <Option value="0,0" type="QString" name="offset"/>
       <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
       <Option value="MM" type="QString" name="offset_unit"/>
-      <Option value="101,64,109,255" type="QString" name="outline_color"/>
+      <Option value="109,89,131,255" type="QString" name="outline_color"/>
       <Option value="solid" type="QString" name="outline_style"/>
       <Option value="0.2" type="QString" name="outline_width"/>
       <Option value="3x:0,0,0,0,0,0" type="QString" name="outline_width_map_unit_scale"/>
@@ -154,19 +154,19 @@
       <Option value="collection" type="QString" name="type"/>
      </Option>
     </data_defined_properties>
-    <layer id="{9ba519ad-f7b4-4c50-869b-85a115ccda3b}" pass="0" class="SimpleFill" enabled="1" locked="0">
+    <layer id="{3de13708-7a9b-4f2f-a9a2-8503fe3756ba}" pass="0" class="SimpleFill" enabled="1" locked="0">
      <Option type="Map">
       <Option value="3x:0,0,0,0,0,0" type="QString" name="border_width_map_unit_scale"/>
-      <Option value="167,166,243,0" type="QString" name="color"/>
-      <Option value="miter" type="QString" name="joinstyle"/>
+      <Option value="45,81,225,255" type="QString" name="color"/>
+      <Option value="bevel" type="QString" name="joinstyle"/>
       <Option value="0,0" type="QString" name="offset"/>
       <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
       <Option value="MM" type="QString" name="offset_unit"/>
-      <Option value="30,11,244,255" type="QString" name="outline_color"/>
+      <Option value="45,81,225,255" type="QString" name="outline_color"/>
       <Option value="solid" type="QString" name="outline_style"/>
-      <Option value="0.5" type="QString" name="outline_width"/>
+      <Option value="0.26" type="QString" name="outline_width"/>
       <Option value="MM" type="QString" name="outline_width_unit"/>
-      <Option value="solid" type="QString" name="style"/>
+      <Option value="vertical" type="QString" name="style"/>
      </Option>
      <data_defined_properties>
       <Option type="Map">
@@ -192,7 +192,7 @@
       <Option value="collection" type="QString" name="type"/>
      </Option>
     </data_defined_properties>
-    <layer id="{c66baae6-f225-4401-8759-501dfe4eec07}" pass="0" class="SimpleFill" enabled="1" locked="0">
+    <layer id="{a7a3c576-ee4f-46c6-aa2b-cd7d3b92b5c6}" pass="0" class="SimpleFill" enabled="1" locked="0">
      <Option type="Map">
       <Option value="3x:0,0,0,0,0,0" type="QString" name="border_width_map_unit_scale"/>
       <Option value="0,0,255,255" type="QString" name="color"/>
@@ -219,6 +219,9 @@
  </selection>
  <customproperties>
   <Option type="Map">
+   <Option type="List" name="dualview/previewExpressions">
+    <Option value="&quot;Tok&quot;" type="QString"/>
+   </Option>
    <Option value="0" type="int" name="embeddedWidgets/count"/>
    <Option name="variableNames"/>
    <Option name="variableValues"/>
@@ -229,7 +232,7 @@
  <layerOpacity>1</layerOpacity>
  <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
   <DiagramCategory direction="0" opacity="1" penColor="#000000" penWidth="0" rotationOffset="270" diagramOrientation="Up" backgroundAlpha="255" scaleDependency="Area" minimumSize="0" scaleBasedVisibility="0" penAlpha="255" spacingUnitScale="3x:0,0,0,0,0,0" backgroundColor="#ffffff" lineSizeScale="3x:0,0,0,0,0,0" height="15" enabled="0" barWidth="5" width="15" showAxis="1" sizeType="MM" lineSizeType="MM" minScaleDenominator="0" spacingUnit="MM" maxScaleDenominator="1e+08" labelPlacementMethod="XHeight" sizeScale="3x:0,0,0,0,0,0" spacing="5">
-   <fontProperties bold="0" strikethrough="0" description=".AppleSystemUIFont,13,-1,5,50,0,0,0,0,0" italic="0" underline="0" style=""/>
+   <fontProperties bold="0" strikethrough="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" italic="0" underline="0" style=""/>
    <attribute label="" field="" color="#000000" colorOpacity="1"/>
    <axisSymbol>
     <symbol alpha="1" type="line" frame_rate="10" clip_to_extent="1" name="" is_animated="0" force_rhr="0">
@@ -240,7 +243,7 @@
        <Option value="collection" type="QString" name="type"/>
       </Option>
      </data_defined_properties>
-     <layer id="{e3c151cb-d724-468d-8f93-e744f70992aa}" pass="0" class="SimpleLine" enabled="1" locked="0">
+     <layer id="{6a13765d-a2ea-4d24-810f-17cef07b0a6d}" pass="0" class="SimpleLine" enabled="1" locked="0">
       <Option type="Map">
        <Option value="0" type="QString" name="align_dash_pattern"/>
        <Option value="square" type="QString" name="capstyle"/>
@@ -311,119 +314,63 @@
     </config>
    </editWidget>
   </field>
-  <field name="gml_id" configurationFlags="NoFlag">
+  <field name="Tok" configurationFlags="NoFlag">
    <editWidget type="TextEdit">
     <config>
      <Option/>
     </config>
    </editWidget>
   </field>
-  <field name="Kod" configurationFlags="NoFlag">
-   <editWidget type="Range">
-    <config>
-     <Option/>
-    </config>
-   </editWidget>
-  </field>
-  <field name="Nazev" configurationFlags="NoFlag">
+  <field name="Dokument" configurationFlags="NoFlag">
    <editWidget type="TextEdit">
     <config>
      <Option/>
     </config>
    </editWidget>
   </field>
-  <field name="Nespravny" configurationFlags="NoFlag">
+  <field name="Vydal_kdo" configurationFlags="NoFlag">
    <editWidget type="TextEdit">
     <config>
      <Option/>
     </config>
    </editWidget>
   </field>
-  <field name="ExistujeDigitalniMapa" configurationFlags="NoFlag">
+  <field name="Vydal_kdy" configurationFlags="NoFlag">
+   <editWidget type="DateTime">
+    <config>
+     <Option/>
+    </config>
+   </editWidget>
+  </field>
+  <field name="Jev" configurationFlags="NoFlag">
    <editWidget type="TextEdit">
     <config>
      <Option/>
     </config>
    </editWidget>
   </field>
-  <field name="ObecKod" configurationFlags="NoFlag">
-   <editWidget type="Range">
-    <config>
-     <Option/>
-    </config>
-   </editWidget>
-  </field>
-  <field name="PlatiOd" configurationFlags="NoFlag">
+  <field name="Pasport_Id" configurationFlags="NoFlag">
    <editWidget type="TextEdit">
     <config>
      <Option/>
     </config>
    </editWidget>
   </field>
-  <field name="PlatiDo" configurationFlags="NoFlag">
+  <field name="Zdroj" configurationFlags="NoFlag">
    <editWidget type="TextEdit">
     <config>
      <Option/>
     </config>
    </editWidget>
   </field>
-  <field name="IdTransakce" configurationFlags="NoFlag">
-   <editWidget type="TextEdit">
+  <field name="Dat_Aktual" configurationFlags="NoFlag">
+   <editWidget type="DateTime">
     <config>
      <Option/>
     </config>
    </editWidget>
   </field>
-  <field name="GlobalniIdNavrhuZmeny" configurationFlags="NoFlag">
-   <editWidget type="TextEdit">
-    <config>
-     <Option/>
-    </config>
-   </editWidget>
-  </field>
-  <field name="RizeniId" configurationFlags="NoFlag">
-   <editWidget type="TextEdit">
-    <config>
-     <Option/>
-    </config>
-   </editWidget>
-  </field>
-  <field name="MluvnickeCharakteristikyPad2" configurationFlags="NoFlag">
-   <editWidget type="TextEdit">
-    <config>
-     <Option/>
-    </config>
-   </editWidget>
-  </field>
-  <field name="MluvnickeCharakteristikyPad3" configurationFlags="NoFlag">
-   <editWidget type="TextEdit">
-    <config>
-     <Option/>
-    </config>
-   </editWidget>
-  </field>
-  <field name="MluvnickeCharakteristikyPad4" configurationFlags="NoFlag">
-   <editWidget type="TextEdit">
-    <config>
-     <Option/>
-    </config>
-   </editWidget>
-  </field>
-  <field name="MluvnickeCharakteristikyPad6" configurationFlags="NoFlag">
-   <editWidget type="TextEdit">
-    <config>
-     <Option/>
-    </config>
-   </editWidget>
-  </field>
-  <field name="MluvnickeCharakteristikyPad7" configurationFlags="NoFlag">
-   <editWidget type="TextEdit">
-    <config>
-     <Option/>
-    </config>
-   </editWidget>
-  </field>
-  <field name="DatumVzniku" configurationFlags="NoFlag">
+  <field name="Poznamka" configurationFlags="NoFlag">
    <editWidget type="TextEdit">
     <config>
      <Option/>
@@ -433,103 +380,63 @@
  </fieldConfiguration>
  <aliases>
   <alias field="fid" index="0" name=""/>
-  <alias field="gml_id" index="1" name=""/>
-  <alias field="Kod" index="2" name=""/>
-  <alias field="Nazev" index="3" name=""/>
-  <alias field="Nespravny" index="4" name=""/>
-  <alias field="ExistujeDigitalniMapa" index="5" name=""/>
-  <alias field="ObecKod" index="6" name=""/>
-  <alias field="PlatiOd" index="7" name=""/>
-  <alias field="PlatiDo" index="8" name=""/>
-  <alias field="IdTransakce" index="9" name=""/>
-  <alias field="GlobalniIdNavrhuZmeny" index="10" name=""/>
-  <alias field="RizeniId" index="11" name=""/>
-  <alias field="MluvnickeCharakteristikyPad2" index="12" name=""/>
-  <alias field="MluvnickeCharakteristikyPad3" index="13" name=""/>
-  <alias field="MluvnickeCharakteristikyPad4" index="14" name=""/>
-  <alias field="MluvnickeCharakteristikyPad6" index="15" name=""/>
-  <alias field="MluvnickeCharakteristikyPad7" index="16" name=""/>
-  <alias field="DatumVzniku" index="17" name=""/>
+  <alias field="Tok" index="1" name=""/>
+  <alias field="Dokument" index="2" name=""/>
+  <alias field="Vydal_kdo" index="3" name=""/>
+  <alias field="Vydal_kdy" index="4" name=""/>
+  <alias field="Jev" index="5" name=""/>
+  <alias field="Pasport_Id" index="6" name=""/>
+  <alias field="Zdroj" index="7" name=""/>
+  <alias field="Dat_Aktual" index="8" name=""/>
+  <alias field="Poznamka" index="9" name=""/>
  </aliases>
  <splitPolicies>
   <policy field="fid" policy="Duplicate"/>
-  <policy field="gml_id" policy="Duplicate"/>
-  <policy field="Kod" policy="Duplicate"/>
-  <policy field="Nazev" policy="Duplicate"/>
-  <policy field="Nespravny" policy="Duplicate"/>
-  <policy field="ExistujeDigitalniMapa" policy="Duplicate"/>
-  <policy field="ObecKod" policy="Duplicate"/>
-  <policy field="PlatiOd" policy="Duplicate"/>
-  <policy field="PlatiDo" policy="Duplicate"/>
-  <policy field="IdTransakce" policy="Duplicate"/>
-  <policy field="GlobalniIdNavrhuZmeny" policy="Duplicate"/>
-  <policy field="RizeniId" policy="Duplicate"/>
-  <policy field="MluvnickeCharakteristikyPad2" policy="Duplicate"/>
-  <policy field="MluvnickeCharakteristikyPad3" policy="Duplicate"/>
-  <policy field="MluvnickeCharakteristikyPad4" policy="Duplicate"/>
-  <policy field="MluvnickeCharakteristikyPad6" policy="Duplicate"/>
-  <policy field="MluvnickeCharakteristikyPad7" policy="Duplicate"/>
-  <policy field="DatumVzniku" policy="Duplicate"/>
+  <policy field="Tok" policy="Duplicate"/>
+  <policy field="Dokument" policy="Duplicate"/>
+  <policy field="Vydal_kdo" policy="Duplicate"/>
+  <policy field="Vydal_kdy" policy="Duplicate"/>
+  <policy field="Jev" policy="Duplicate"/>
+  <policy field="Pasport_Id" policy="Duplicate"/>
+  <policy field="Zdroj" policy="Duplicate"/>
+  <policy field="Dat_Aktual" policy="Duplicate"/>
+  <policy field="Poznamka" policy="Duplicate"/>
  </splitPolicies>
  <defaults>
   <default field="fid" applyOnUpdate="0" expression=""/>
-  <default field="gml_id" applyOnUpdate="0" expression=""/>
-  <default field="Kod" applyOnUpdate="0" expression=""/>
-  <default field="Nazev" applyOnUpdate="0" expression=""/>
-  <default field="Nespravny" applyOnUpdate="0" expression=""/>
-  <default field="ExistujeDigitalniMapa" applyOnUpdate="0" expression=""/>
-  <default field="ObecKod" applyOnUpdate="0" expression=""/>
-  <default field="PlatiOd" applyOnUpdate="0" expression=""/>
-  <default field="PlatiDo" applyOnUpdate="0" expression=""/>
-  <default field="IdTransakce" applyOnUpdate="0" expression=""/>
-  <default field="GlobalniIdNavrhuZmeny" applyOnUpdate="0" expression=""/>
-  <default field="RizeniId" applyOnUpdate="0" expression=""/>
-  <default field="MluvnickeCharakteristikyPad2" applyOnUpdate="0" expression=""/>
-  <default field="MluvnickeCharakteristikyPad3" applyOnUpdate="0" expression=""/>
-  <default field="MluvnickeCharakteristikyPad4" applyOnUpdate="0" expression=""/>
-  <default field="MluvnickeCharakteristikyPad6" applyOnUpdate="0" expression=""/>
-  <default field="MluvnickeCharakteristikyPad7" applyOnUpdate="0" expression=""/>
-  <default field="DatumVzniku" applyOnUpdate="0" expression=""/>
+  <default field="Tok" applyOnUpdate="0" expression=""/>
+  <default field="Dokument" applyOnUpdate="0" expression=""/>
+  <default field="Vydal_kdo" applyOnUpdate="0" expression=""/>
+  <default field="Vydal_kdy" applyOnUpdate="0" expression=""/>
+  <default field="Jev" applyOnUpdate="0" expression=""/>
+  <default field="Pasport_Id" applyOnUpdate="0" expression=""/>
+  <default field="Zdroj" applyOnUpdate="0" expression=""/>
+  <default field="Dat_Aktual" applyOnUpdate="0" expression=""/>
+  <default field="Poznamka" applyOnUpdate="0" expression=""/>
  </defaults>
  <constraints>
-  <constraint field="fid" constraints="7" notnull_strength="1" unique_strength="1" exp_strength="1"/>
-  <constraint field="gml_id" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-  <constraint field="Kod" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-  <constraint field="Nazev" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-  <constraint field="Nespravny" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-  <constraint field="ExistujeDigitalniMapa" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-  <constraint field="ObecKod" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-  <constraint field="PlatiOd" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-  <constraint field="PlatiDo" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-  <constraint field="IdTransakce" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-  <constraint field="GlobalniIdNavrhuZmeny" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-  <constraint field="RizeniId" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-  <constraint field="MluvnickeCharakteristikyPad2" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-  <constraint field="MluvnickeCharakteristikyPad3" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-  <constraint field="MluvnickeCharakteristikyPad4" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-  <constraint field="MluvnickeCharakteristikyPad6" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-  <constraint field="MluvnickeCharakteristikyPad7" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-  <constraint field="DatumVzniku" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
+  <constraint field="fid" constraints="3" notnull_strength="1" unique_strength="1" exp_strength="0"/>
+  <constraint field="Tok" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
+  <constraint field="Dokument" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
+  <constraint field="Vydal_kdo" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
+  <constraint field="Vydal_kdy" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
+  <constraint field="Jev" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
+  <constraint field="Pasport_Id" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
+  <constraint field="Zdroj" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
+  <constraint field="Dat_Aktual" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
+  <constraint field="Poznamka" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
  </constraints>
  <constraintExpressions>
   <constraint field="fid" exp="" desc=""/>
-  <constraint field="gml_id" exp="" desc=""/>
-  <constraint field="Kod" exp="" desc=""/>
-  <constraint field="Nazev" exp="" desc=""/>
-  <constraint field="Nespravny" exp="" desc=""/>
-  <constraint field="ExistujeDigitalniMapa" exp="" desc=""/>
-  <constraint field="ObecKod" exp="" desc=""/>
-  <constraint field="PlatiOd" exp="" desc=""/>
-  <constraint field="PlatiDo" exp="" desc=""/>
-  <constraint field="IdTransakce" exp="" desc=""/>
-  <constraint field="GlobalniIdNavrhuZmeny" exp="" desc=""/>
-  <constraint field="RizeniId" exp="" desc=""/>
-  <constraint field="MluvnickeCharakteristikyPad2" exp="" desc=""/>
-  <constraint field="MluvnickeCharakteristikyPad3" exp="" desc=""/>
-  <constraint field="MluvnickeCharakteristikyPad4" exp="" desc=""/>
-  <constraint field="MluvnickeCharakteristikyPad6" exp="" desc=""/>
-  <constraint field="MluvnickeCharakteristikyPad7" exp="" desc=""/>
-  <constraint field="DatumVzniku" exp="" desc=""/>
+  <constraint field="Tok" exp="" desc=""/>
+  <constraint field="Dokument" exp="" desc=""/>
+  <constraint field="Vydal_kdo" exp="" desc=""/>
+  <constraint field="Vydal_kdy" exp="" desc=""/>
+  <constraint field="Jev" exp="" desc=""/>
+  <constraint field="Pasport_Id" exp="" desc=""/>
+  <constraint field="Zdroj" exp="" desc=""/>
+  <constraint field="Dat_Aktual" exp="" desc=""/>
+  <constraint field="Poznamka" exp="" desc=""/>
  </constraintExpressions>
  <expressionfields/>
  <attributeactions>
@@ -537,24 +444,16 @@
  </attributeactions>
  <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
   <columns>
+   <column type="field" name="Tok" hidden="0" width="-1"/>
+   <column type="field" name="Dokument" hidden="0" width="-1"/>
+   <column type="field" name="Vydal_kdo" hidden="0" width="-1"/>
+   <column type="field" name="Vydal_kdy" hidden="0" width="-1"/>
+   <column type="field" name="Jev" hidden="0" width="-1"/>
+   <column type="field" name="Pasport_Id" hidden="0" width="-1"/>
+   <column type="field" name="Zdroj" hidden="0" width="-1"/>
+   <column type="field" name="Dat_Aktual" hidden="0" width="-1"/>
+   <column type="field" name="Poznamka" hidden="0" width="-1"/>
    <column type="field" name="fid" hidden="0" width="-1"/>
-   <column type="field" name="gml_id" hidden="0" width="-1"/>
-   <column type="field" name="Kod" hidden="0" width="-1"/>
-   <column type="field" name="Nazev" hidden="0" width="-1"/>
-   <column type="field" name="Nespravny" hidden="0" width="-1"/>
-   <column type="field" name="ExistujeDigitalniMapa" hidden="0" width="-1"/>
-   <column type="field" name="ObecKod" hidden="0" width="-1"/>
-   <column type="field" name="PlatiOd" hidden="0" width="-1"/>
-   <column type="field" name="PlatiDo" hidden="0" width="-1"/>
-   <column type="field" name="IdTransakce" hidden="0" width="-1"/>
-   <column type="field" name="GlobalniIdNavrhuZmeny" hidden="0" width="-1"/>
-   <column type="field" name="RizeniId" hidden="0" width="-1"/>
-   <column type="field" name="MluvnickeCharakteristikyPad2" hidden="0" width="-1"/>
-   <column type="field" name="MluvnickeCharakteristikyPad3" hidden="0" width="-1"/>
-   <column type="field" name="MluvnickeCharakteristikyPad4" hidden="0" width="-1"/>
-   <column type="field" name="MluvnickeCharakteristikyPad6" hidden="0" width="-1"/>
-   <column type="field" name="MluvnickeCharakteristikyPad7" hidden="0" width="-1"/>
-   <column type="field" name="DatumVzniku" hidden="0" width="-1"/>
    <column type="actions" hidden="1" width="-1"/>
   </columns>
  </attributetableconfig>
@@ -587,89 +486,73 @@ def my_form_open(dialog, layer, feature):
  <featformsuppress>0</featformsuppress>
  <editorlayout>generatedlayout</editorlayout>
  <editable>
-  <field editable="1" name="DatumVzniku"/>
-  <field editable="1" name="ExistujeDigitalniMapa"/>
-  <field editable="1" name="GlobalniIdNavrhuZmeny"/>
-  <field editable="1" name="IdTransakce"/>
-  <field editable="1" name="Kod"/>
-  <field editable="1" name="MluvnickeCharakteristikyPad2"/>
-  <field editable="1" name="MluvnickeCharakteristikyPad3"/>
-  <field editable="1" name="MluvnickeCharakteristikyPad4"/>
-  <field editable="1" name="MluvnickeCharakteristikyPad6"/>
-  <field editable="1" name="MluvnickeCharakteristikyPad7"/>
-  <field editable="1" name="Nazev"/>
-  <field editable="1" name="Nespravny"/>
-  <field editable="1" name="ObecKod"/>
-  <field editable="1" name="PlatiDo"/>
-  <field editable="1" name="PlatiOd"/>
-  <field editable="1" name="RizeniId"/>
+  <field editable="1" name="Dat_Aktual"/>
+  <field editable="1" name="Dokument"/>
+  <field editable="1" name="Jev"/>
+  <field editable="1" name="Pasport_Id"/>
+  <field editable="1" name="Poznamka"/>
+  <field editable="1" name="Tok"/>
+  <field editable="1" name="Vydal_kdo"/>
+  <field editable="1" name="Vydal_kdy"/>
+  <field editable="1" name="Zdroj"/>
   <field editable="1" name="fid"/>
-  <field editable="1" name="gml_id"/>
  </editable>
  <labelOnTop>
-  <field labelOnTop="0" name="DatumVzniku"/>
-  <field labelOnTop="0" name="ExistujeDigitalniMapa"/>
-  <field labelOnTop="0" name="GlobalniIdNavrhuZmeny"/>
-  <field labelOnTop="0" name="IdTransakce"/>
-  <field labelOnTop="0" name="Kod"/>
-  <field labelOnTop="0" name="MluvnickeCharakteristikyPad2"/>
-  <field labelOnTop="0" name="MluvnickeCharakteristikyPad3"/>
-  <field labelOnTop="0" name="MluvnickeCharakteristikyPad4"/>
-  <field labelOnTop="0" name="MluvnickeCharakteristikyPad6"/>
-  <field labelOnTop="0" name="MluvnickeCharakteristikyPad7"/>
-  <field labelOnTop="0" name="Nazev"/>
-  <field labelOnTop="0" name="Nespravny"/>
-  <field labelOnTop="0" name="ObecKod"/>
-  <field labelOnTop="0" name="PlatiDo"/>
-  <field labelOnTop="0" name="PlatiOd"/>
-  <field labelOnTop="0" name="RizeniId"/>
+  <field labelOnTop="0" name="Dat_Aktual"/>
+  <field labelOnTop="0" name="Dokument"/>
+  <field labelOnTop="0" name="Jev"/>
+  <field labelOnTop="0" name="Pasport_Id"/>
+  <field labelOnTop="0" name="Poznamka"/>
+  <field labelOnTop="0" name="Tok"/>
+  <field labelOnTop="0" name="Vydal_kdo"/>
+  <field labelOnTop="0" name="Vydal_kdy"/>
+  <field labelOnTop="0" name="Zdroj"/>
   <field labelOnTop="0" name="fid"/>
-  <field labelOnTop="0" name="gml_id"/>
  </labelOnTop>
  <reuseLastValue>
-  <field name="DatumVzniku" reuseLastValue="0"/>
-  <field name="ExistujeDigitalniMapa" reuseLastValue="0"/>
-  <field name="GlobalniIdNavrhuZmeny" reuseLastValue="0"/>
-  <field name="IdTransakce" reuseLastValue="0"/>
-  <field name="Kod" reuseLastValue="0"/>
-  <field name="MluvnickeCharakteristikyPad2" reuseLastValue="0"/>
-  <field name="MluvnickeCharakteristikyPad3" reuseLastValue="0"/>
-  <field name="MluvnickeCharakteristikyPad4" reuseLastValue="0"/>
-  <field name="MluvnickeCharakteristikyPad6" reuseLastValue="0"/>
-  <field name="MluvnickeCharakteristikyPad7" reuseLastValue="0"/>
-  <field name="Nazev" reuseLastValue="0"/>
-  <field name="Nespravny" reuseLastValue="0"/>
-  <field name="ObecKod" reuseLastValue="0"/>
-  <field name="PlatiDo" reuseLastValue="0"/>
-  <field name="PlatiOd" reuseLastValue="0"/>
-  <field name="RizeniId" reuseLastValue="0"/>
+  <field name="Dat_Aktual" reuseLastValue="0"/>
+  <field name="Dokument" reuseLastValue="0"/>
+  <field name="Jev" reuseLastValue="0"/>
+  <field name="Pasport_Id" reuseLastValue="0"/>
+  <field name="Poznamka" reuseLastValue="0"/>
+  <field name="Tok" reuseLastValue="0"/>
+  <field name="Vydal_kdo" reuseLastValue="0"/>
+  <field name="Vydal_kdy" reuseLastValue="0"/>
+  <field name="Zdroj" reuseLastValue="0"/>
   <field name="fid" reuseLastValue="0"/>
-  <field name="gml_id" reuseLastValue="0"/>
  </reuseLastValue>
  <dataDefinedFieldProperties/>
  <widgets/>
- <previewExpression>"gml_id"</previewExpression>
+ <previewExpression>"Tok"</previewExpression>
  <mapTip enabled="1"></mapTip>
  <layerGeometryType>2</layerGeometryType>
 </qgis>
-Úx<?xml version="1.0" encoding="UTF-8"?>
+ÚB<?xml version="1.0" encoding="UTF-8"?>
 <StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:se="http://www.opengis.net/se" xmlns:ogc="http://www.opengis.net/ogc" version="1.1.0" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
  <NamedLayer>
-  <se:Name>05 katastrÃ¡lnÃ­ ÃºzemÃ­</se:Name>
+  <se:Name>05 zÃ¡plavovÃ© ÃºzemÃ­ s periodou 20 let</se:Name>
   <UserStyle>
-   <se:Name>05 katastrÃ¡lnÃ­ ÃºzemÃ­</se:Name>
+   <se:Name>05 zÃ¡plavovÃ© ÃºzemÃ­ s periodou 20 let</se:Name>
    <se:FeatureTypeStyle>
     <se:Rule>
      <se:Name>Single symbol</se:Name>
      <se:PolygonSymbolizer>
       <se:Fill>
-       <se:SvgParameter name="fill">#a7a6f3</se:SvgParameter>
-       <se:SvgParameter name="fill-opacity">0</se:SvgParameter>
+       <se:GraphicFill>
+        <se:Graphic>
+         <se:Mark>
+          <se:WellKnownName>line</se:WellKnownName>
+          <se:Stroke>
+           <se:SvgParameter name="stroke">#2d51e1</se:SvgParameter>
+          </se:Stroke>
+         </se:Mark>
+        </se:Graphic>
+       </se:GraphicFill>
       </se:Fill>
       <se:Stroke>
-       <se:SvgParameter name="stroke">#1e0bf4</se:SvgParameter>
-       <se:SvgParameter name="stroke-width">2</se:SvgParameter>
-       <se:SvgParameter name="stroke-linejoin">mitre</se:SvgParameter>
+       <se:SvgParameter name="stroke">#2d51e1</se:SvgParameter>
+       <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+       <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
       </se:Stroke>
      </se:PolygonSymbolizer>
     </se:Rule>
@@ -677,4 +560,4 @@ def my_form_open(dialog, layer, feature):
   </UserStyle>
  </NamedLayer>
 </StyledLayerDescriptor>
-Ã¸Sun Oct 27 15:05:57 2024 À·2024-10-13T20:12:19.000
+Ã¸Sun Oct 27 15:11:21 2024 ÀÀ
